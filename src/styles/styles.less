@@ -1,0 +1,46 @@
+@import "common";
+
+body {
+  font-size: 16px !important;
+  min-width: 320px !important;
+  position: relative !important;
+  line-height: 1.6 !important;
+  font-family: "roboto", sans-serif !important;
+  overflow-x: hidden !important;
+  background-color: #FFF !important;
+  margin: 0;
+  padding: 0;
+  opacity: 1
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visible-desktop {
+  display: block;
+}
+
+.visible-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: @screen-md) {
+  .visible-desktop {
+    display: none;
+  }
+
+  .visible-mobile {
+    display: block;
+  }
+}
