@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'PureGolfUI'`, () => {
+  it(`should have as title 'angularInitialTemplateUI'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('PureGolfUI');
+    expect(app.title).toEqual('angularInitialTemplateUI');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to PureGolfUI!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angularInitialTemplateUI!');
   });
 });

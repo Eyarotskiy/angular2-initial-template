@@ -1,4 +1,4 @@
-# PureGolfUI
+# Angular-initial-template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `npm run build` which will firstly install `node_modules` (by executing `npm install` command) and the will build the project. The build artifacts will be stored in the `PureGolfWeb/wwwroot` directory. Use the `--prod` flag for a production build.
+Run `npm run build` which will firstly install `node_modules` (by executing `npm install` command) and the will build the project. The build artifacts will be stored in the `dist` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 

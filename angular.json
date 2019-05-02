@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PureGolfUI": {
+    "angularInitialTemplateUI": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PureGolfUI:build"
+            "browserTarget": "angularInitialTemplateUI:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PureGolfUI:build:production"
+              "browserTarget": "angularInitialTemplateUI:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PureGolfUI:build"
+            "browserTarget": "angularInitialTemplateUI:build"
           }
         },
         "test": {
@@ -118,7 +118,7 @@
         }
       }
     },
-    "PureGolfUI-e2e": {
+    "angularInitialTemplateUI-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -127,11 +127,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "PureGolfUI:serve"
+            "devServerTarget": "angularInitialTemplateUI:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "PureGolfUI:serve:production"
+              "devServerTarget": "angularInitialTemplateUI:serve:production"
             }
           }
         },
@@ -147,5 +147,5 @@
       }
     }
   },
-  "defaultProject": "PureGolfUI"
+  "defaultProject": "angularInitialTemplateUI"
 }
